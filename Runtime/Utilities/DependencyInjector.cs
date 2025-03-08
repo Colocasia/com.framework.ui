@@ -1,3 +1,5 @@
+using System;
+
 namespace Framework.Update
 {
     public static class DependencyInjector
@@ -22,14 +24,14 @@ namespace Framework.Update
         // 获取已注册模块（带空值检查）
         public static IResourceLoader GetResourceLoader()
         {
-            if(_resourceLoader == null) 
+            if (_resourceLoader == null)
                 throw new InvalidOperationException("未注册资源加载器!");
             return _resourceLoader;
         }
 
         public static IHotUpdateExecutor GetHotUpdateExecutor()
         {
-            if(_hotUpdateExecutor == null)
+            if (_hotUpdateExecutor == null)
                 throw new InvalidOperationException("未注册热更新执行器!");
             return _hotUpdateExecutor;
         }
