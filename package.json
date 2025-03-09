@@ -1,8 +1,8 @@
 {
-  "name": "com.framework.update",
-  "displayName": "Update Framework",
+  "name": "com.framework.ui",
+  "displayName": "UI Framework",
   "version": "0.1.0",
   "unity": "2023.2",
-  "description": "A universal update framework for Unity projects.",
+  "description": "A universal ui framework for Unity projects.",
   "dependencies": {}
 }
